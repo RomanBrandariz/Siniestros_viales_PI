@@ -21,9 +21,31 @@ Las tasas de mortalidad relacionadas con siniestros viales suelen ser un indicad
 
 Es importante destacar que la prevención de siniestros viales involucra medidas como la educación vial, el cumplimiento de las normas de tráfico, la infraestructura segura de carreteras y calles, así como la promoción de vehículos más seguros. El seguimiento de las estadísticas y la implementación de políticas efectivas son esenciales para abordar este problema de manera adecuada.
 
-# EDA
+# ETL
 
-## Fuente de datos
+### Fuente de datos
 - [Buenos Aires Data](https://data.buenosaires.gob.ar/dataset/victimas-siniestros-viales): deberán utilizar el dataset denominado `Homicidios`
-se realizo la extraccion de datos como detallo en [Notebook EDA](EDA.ipynb)
+Realizo la extraccion de datos como detallo en [Notebook ETL](ETL.ipynb) donde encontramos un archivo de excel con datos en deversas pestañas donde se destacan la hola hechos y la hoja victimas las cuales nos serviran para realizar nuestro proyecto
+Una vez abanzado el proyecto veo que hay datos faltantes para realizar las consultas solicitadas este dato que nos falta es la cantidad de habitantes , realizamos una investigacion y como en argentina se realizan los sensos cada 10 años tenemos datos de los habitantes por comuna del 2010 y del 2022 siendo este ultimo el que usaremos para la exploracion de los datos estos datos son provenientes de [Indec](https://www.indec.gob.ar/indec/web/Nivel4-Tema-2-41-165)
+
+# EDA
+ - Se realizo EDa segun como detallo [Notebook EDA](EDA.ipynb) , previamente cuando se hizo la extraccion de los datos se analizo y se descartaron varias columnas que daban a entender redundancia, mientras que en esta instancia nos enfocamos en reducir los datos faltantes o rellenarlos por ejemplo en donde faltaban datos de longitud y latitud pero teniamos los datos sobre a cual comuna se referia se opto por hacer un df con el promedio de hubicacion para cada comuna y asi en donde teniamos faltanes que solo eran unos pocos se relleno con esos datos, para la exploracion del archivo con la poblacion por comuna al ser un archivo muy simple solo se abrio y se observo en una pagina de excel ya que solo era una tabla de muy pocos elementos
+
+# Visualizacion de datos en PowerBi
+
+ - Una vez ingresados los archivos homicidios_cleaned.cvs y poblacion_por_comuna.xlsx se visualizaron en transformacion de datos de power bi para revision y realizar una instancia mas de correccion de datos
+
+ realizando los distintos dashboar
+
+![Dashboar](Imagenes\diap01.jpg)
+![Dashboar](Imagenes\diap02.jpg)
+![Dashboar](Imagenes\diap03.jpg)
+![Dashboar](Imagenes\diap04.jpg)
+
+
+
+Autor
+- Roman Brandariz
+mail branr0@hotmail.com
+[Linkedin](https://www.linkedin.com/in/romanbrandariz/)
 
