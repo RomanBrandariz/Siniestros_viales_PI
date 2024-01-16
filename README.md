@@ -37,7 +37,7 @@ Una vez abanzado el proyecto veo que hay datos faltantes para realizar las consu
 
  realizando los distintos dashboar
 
-![Dashboar](Imagenes\diap01.jpg)
+![Dashboar](Imagenes/diap01.jpg)
 ![Dashboar](Imagenes\diap02.jpg)
 ![Dashboar](Imagenes\diap03.jpg)
 ![Dashboar](Imagenes\diap04.jpg)
