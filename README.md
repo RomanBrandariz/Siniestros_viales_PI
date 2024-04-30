@@ -42,6 +42,9 @@ Una vez abanzado el proyecto veo que hay datos faltantes para realizar las consu
 ![Dashboar](Imagenes/diap03.jpg)
 ![Dashboar](Imagenes/diap04.jpg)
 
+ [![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/romanbrandariz/) [![GitHub](https://img.shields.io/badge/-GitHub-black?style=flat-square&logo=GitHub)](https://github.com/RomanBrandariz)
+
+
 
 
 Autor
