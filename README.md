@@ -5,6 +5,8 @@
 <h1 align='center'>
  <b>PROYECTO INDIVIDUAL Nº2</b>
 </h1>
+
+
  
 # <h1 align="center">**`Siniestros viales`**</h1>
 
@@ -21,6 +23,8 @@ Las tasas de mortalidad relacionadas con siniestros viales suelen ser un indicad
 
 Es importante destacar que la prevención de siniestros viales involucra medidas como la educación vial, el cumplimiento de las normas de tráfico, la infraestructura segura de carreteras y calles, así como la promoción de vehículos más seguros. El seguimiento de las estadísticas y la implementación de políticas efectivas son esenciales para abordar este problema de manera adecuada.
 
+
+
 # ETL
 
 ### Fuente de datos
@@ -36,6 +40,8 @@ Una vez abanzado el proyecto veo que hay datos faltantes para realizar las consu
  - Una vez ingresados los archivos homicidios_cleaned.cvs y poblacion_por_comuna.xlsx se visualizaron en transformacion de datos de power bi para revision y realizar una instancia mas de correccion de datos
 
  realizando los distintos dashboar
+
+
 
 ![Dashboar](Imagenes/diap01.jpg)
 ![Dashboar](Imagenes/diap02.jpg)
